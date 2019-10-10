@@ -1,0 +1,19 @@
+use a class to define each number 1-52 as a specific card in the deck
+have a function that draws cards and tracks what cards have been drawn and redraws card if it is no longer in the deck
+reshuffle deck every 25 cards (clear list of drawn cards)
+
+format:
+You are dealt a [10 of spades] and a [queen of hearts].
+The dealer is dealt a [9 of clubs] and a face down card.  ###have the dealer only actually draw when they need the card
+The dealer has a 9 showing. Your current total is 20.
+Would you like to hit or stay?  #if stay then move onto dealers turn
+hit
+You are dealt a [3 of clubs]. You bust!
+
+dealers turn:
+stay
+The dealer has a [9 of clubs] and reveales a [4 of diamonds]
+The dealer has a current total of 13. The dealer hits.      ###The dealer hits until they bust or have a total above 17
+The dealer is dealt a [5 of hearts].
+The dealer has a current total of 18. The dealer stays.
+You have a total of 20 and the dealer has a total of 18. You win!
